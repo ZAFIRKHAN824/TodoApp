@@ -54,7 +54,7 @@ function App() {
               value={notes}
             />
             <button className="saveButt" disabled={notes === ""} onClick={save}>
-              +
+              ++++
             </button>
             <Showlist
               notes={noteArray}
